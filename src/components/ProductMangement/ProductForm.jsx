@@ -21,7 +21,7 @@ const ProductForm = ({ handleAddProduct }) => {
             return;
 
         }
-        else if (price > 0) {
+        else if (price < 0) {
             setError('Price can not be negative');
             return;
         }

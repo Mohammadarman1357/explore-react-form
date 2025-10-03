@@ -1,10 +1,12 @@
 import './App.css'
 import ControlField from './components/ControlField/ControlField'
+import FamilyTree from './components/FamilyTree/FamilyTree'
 import FormAction from './components/FormAction/FormAction'
 import HookForm from './components/HookForm/HookForm'
 import ProductMangement from './components/ProductMangement/ProductMangement'
 import SimpleForm from './components/SimpleForm/SimpleForm'
 import UnControlledField from './components/UnControlledField/UnControlledField'
+
 
 function App() {
 
@@ -17,7 +19,8 @@ function App() {
       {/* <ControlField></ControlField> */}
       {/* <UnControlledField></UnControlledField> */}
       {/* <HookForm></HookForm> */}
-      <ProductMangement></ProductMangement>
+      {/* <ProductMangement></ProductMangement> */}
+      <FamilyTree></FamilyTree>
 
     </>
   )
